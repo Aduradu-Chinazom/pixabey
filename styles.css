@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    src: url(font/normal.woff2);
+    font-family: normal;
+}
+body{
+    font-family: normal;
+}
+.grid{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+.settings{
+    align-items: center;
+    justify-content: space-between;
+}
+.align{
+    align-items: center;
+}
+.nav{
+    background: transparent;
+    padding: 10px 25px;
+}
+.nav2 li{
+    list-style: none;
+    font-weight: 600;
+    color: white;
+}
+.nav2{
+    gap: 20px;
+}
+.join{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #80808087;
+}
+.up{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #00ab6b;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.upimg{
+    height: 20px;
+    width: 20px;
+}
+.hero{
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero_dark{
+    background-color: #00000082;
+}
+.inside{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inside h1{
+    font-size: 43px;
+    font-weight: 600;
+    color: white;
+}
+.inside span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.divv{
+    width: 100%;
+    background-color: white;
+    height: 40px;
+    border-radius: 30px;
+    color: grey;
+    padding:10px 25px;
+}
+.gap{
+    gap: 10px;
+}
+.all{
+    font-weight: 600;
+}
+.yh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:130px 0 170px 0;
+    
+}
+.hero_bot{
+    padding:10px 25px;
+    color: rgb(194, 193, 193);
+}
+.body_nav{
+    justify-content: center;
+    padding: 30px 0;
+}
+.body_nav button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.body_nav button:hover{
+    background-color: #eeeeee;
+}
+.ghh{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: .8px solid rgb(152, 152, 152);
+}
+.ghhh button{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: .8px solid rgb(152, 152, 152);
+}
+.yu{
+    padding: 10px 25px 30px 25px;
+}
+.grid4{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 0 25px 100px 0;
+    gap: 10px;
+}
+.grid4 div{
+    background-color: white;
+}
+.grid1{
+    flex-direction: column;
+    gap: 10px;
+}
+.grid2{
+    flex-direction: column;
+    gap: 10px;
+}
+.tour{
+    width: 360px;
+    height: 250px;
+}
+.white_bird{
+    width: 360px;
+    height: 250px;
+}
+.runer{
+    border-radius: 10px;
+    width: 360px;
+    height: 380px;
+}
+.sahara{
+    width: 360px;
+    height: 480px;
+}
+.st{
+    width: 360px;
+    height: 550px;
+}
+.t{
+    width: 360px;
+    height: 450px; 
+}
+.o{
+    width: 360px;
+    height: 250px;
+}
+.u{
+    width: 360px;
+    height: 300px;
+}
+.r{
+    width: 360px;
+    height: 360px;
+}
+.our{
+    width: 360px;
+    height: 150px;
+}
+
+.foot{
+    gap: 15px;
+    margin: 0 25px;
+    border-top: .8px solid #dddddd;
+    border-bottom: .8px solid #dddddd;
+    padding: 80px 0 ;
+}
+.foot1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.foot2{
+    flex-direction: column;
+    gap: 20px;
+}
+.foot2 b{
+    font-weight: 550;
+    font-size: 20px;
+}
+.foot2 span{
+    color: #00ab6b;
+    font-weight: 550;
+}
+.footer{
+    width: 100%;
+    height: 450px;
+}
+.last{
+    text-align: center;
+    padding: 25px 0;
+    background-color: #f7f7f7;
+    color: gray;
+}
